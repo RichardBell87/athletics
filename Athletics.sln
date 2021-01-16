@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{687D8BA0-90BC-48A1-B83A-6198233ECE57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Athletics", "domain\Athletics\Athletics.csproj", "{802AD6A3-288D-467C-BC88-E6416D1C2B54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Athletics", "domain\Athletics\Athletics.csproj", "{802AD6A3-288D-467C-BC88-E6416D1C2B54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{BD994B2C-DFB0-44A1-B8D9-66F018B8816C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Athletics.Memory", "infrastructure\News.Memory\Athletics.Memory.csproj", "{210B0449-A487-419B-B702-220B82E16889}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{9A061703-411E-4A75-A79F-78679BBFDB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Athletics.Web", "presentation\Athletics.Web\Athletics.Web.csproj", "{52A2676D-FC12-49B2-823F-588CEE6BE91D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{802AD6A3-288D-467C-BC88-E6416D1C2B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -32,8 +37,40 @@ Global
 		{802AD6A3-288D-467C-BC88-E6416D1C2B54}.Release|x64.Build.0 = Release|Any CPU
 		{802AD6A3-288D-467C-BC88-E6416D1C2B54}.Release|x86.ActiveCfg = Release|Any CPU
 		{802AD6A3-288D-467C-BC88-E6416D1C2B54}.Release|x86.Build.0 = Release|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Debug|x64.Build.0 = Debug|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Debug|x86.Build.0 = Debug|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Release|x64.ActiveCfg = Release|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Release|x64.Build.0 = Release|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Release|x86.ActiveCfg = Release|Any CPU
+		{210B0449-A487-419B-B702-220B82E16889}.Release|x86.Build.0 = Release|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Debug|x64.Build.0 = Debug|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Debug|x86.Build.0 = Debug|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Release|x64.ActiveCfg = Release|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Release|x64.Build.0 = Release|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Release|x86.ActiveCfg = Release|Any CPU
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{802AD6A3-288D-467C-BC88-E6416D1C2B54} = {687D8BA0-90BC-48A1-B83A-6198233ECE57}
+		{210B0449-A487-419B-B702-220B82E16889} = {BD994B2C-DFB0-44A1-B8D9-66F018B8816C}
+		{52A2676D-FC12-49B2-823F-588CEE6BE91D} = {9A061703-411E-4A75-A79F-78679BBFDB47}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3C4E606-46BB-4EDA-9FD3-0ED2D3036F67}
 	EndGlobalSection
 EndGlobal
