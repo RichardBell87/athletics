@@ -12,22 +12,20 @@ window.onscroll = function () {
 	myFunction()
 };
 
+/* Sticky Effect */
+/**************************/
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-
-/* Sticky Effect */
-/* Gallery */
-/**************************/
 function myFunction(imgs) {
-	/* Sticky Effect */
-	/**************************/
+	
 	if (window.pageYOffset >= sticky) {
 		navbar.classList.add("sticky")
 	} else {
 		navbar.classList.remove("sticky");
 	}
-	/* About */
+
+	/* About-Gallery */
 	/**************************/
 	//	var expandImgAbout = document.getElementById("expandedImgAbout");
 	//	var imgTextAbout = document.getElementById("imgtextAbout");
@@ -35,12 +33,11 @@ function myFunction(imgs) {
 	//	imgTextAbout.innerHTML = imgsAbout.alt;
 	//	expandImgAbout.parentElement.style.display = "block";
 
-	/* Gallery */
+	/* Picture-Gallery */
 	/**************************/
-	var expandImg = document.getElementById("expandedImg");
-	var imgText = document.getElementById("imgtext");
-	expandImg.src = imgs.src;
-	imgText.innerHTML = imgs.alt;
-	expandImg.parentElement.style.display = "block";
+	//var expandImg = document.getElementById("expandedImg");
+	//var imgText = document.getElementById("imgtext");
+	//expandImg.src = imgs.src;
+	//imgText.innerHTML = imgs.alt;
+	//expandImg.parentElement.style.display = "block";
 }
-

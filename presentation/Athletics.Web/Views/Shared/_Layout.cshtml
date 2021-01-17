@@ -1,48 +1,279 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Athletics.Web</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    @*<title>@ViewData["Title"] - Athletics.Web</title>*@
+    <title>ФЛАМО</title>
+    <link rel="icon" href="/img/index/coat-of-arms-of-Ukraine.png" sizes="600x600">
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    @*<link rel="stylesheet" href="~/css/test.css" />*@
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/font.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/title.css" rel="stylesheet">
+    <link href="/css/navbar.css" rel="stylesheet">
+    <link href="/css/sponsor-line.css" rel="stylesheet">
+    <link href="/css/news.css" rel="stylesheet">
+    <link href="/css/about.css" rel="stylesheet">
+    <link href="/css/calendar.css" rel="stylesheet">
+    <link href="/css/gallery.css" rel="stylesheet">
+    <link href="/css/footer.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Athletics.Web</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <section id="title">
+        <div class="title">
+            <p class="h3"><a href="#social" class="gradient">ГРОМАДСЬКА ОРГАНІЗАЦІЯ</a></p>
+            <p class="h1"><a href="#about" class="gradient">ФЕДЕРАЦІЯ ЛЕГКОЇ АТЛЕТИКИ МИКОЛАЇВСЬКОЇ ОБЛАСТІ</a></p>
+        </div>
+    </section>
+
+    <section id="navbar" class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </span>
+        <ul class="main-nav" id="js-menu">
+            <li><a href="#news" id="active" class="nav-links">Новини</a></li>
+            @*<li><a href="#about" class="nav-links">Про Нас</a></li>*@
+            <li><a href="#youth" class="nav-links">Дитячо-Юнацький-Спорт</a></li>
+            <li><a href="#sportsmanship" class="nav-links">ШВСМ</a></li>
+            <li><a href="#amateur" class="nav-links">Аматорський-Спорт</a></li>
+            @*<li><a href="#social" class="nav-links">Громадська-Діяльність</a></li>*@
+            <li><a href="#calendar" class="nav-links">Календар-Подій</a></li>
+            <li><a href="#gallery" class="nav-links">Галерея</a></li>
+            <li><a href="#statistics" class="nav-links">Статистика</a></li>
+            <li><a href="#document" class="nav-links">Документи</a></li>
+            <li><a href="#search" class="nav-links">Пошук</a></li>
+            @*<li><a href="#login" class="nav-links">Увійти</a></li>*@
+        </ul>
+    </section>
+
+    <section class="slider-top">
+        <div class="slide-top-track">
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/theheads.png" />
+            </div>
+
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/theheads.png" />
+            </div>
+
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/theheads.png" />
+            </div>
+
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-top">
+                <img class="sponsor-top" src="../img/sponsor-line/theheads.png" />
+            </div>
+        </div>
+    </section>
+
+    <div id="parallax-world-of-ugg">
+        @RenderBody()
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - Athletics.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <section class="slider-bot">
+        <div class="slide-bot-track">
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/theheads.png" />
+            </div>
+
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/theheads.png" />
+            </div>
+
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/theheads.png" />
+            </div>
+
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mdem.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/ts99.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/unknown.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/mks.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/lactalis.png" />
+            </div>
+            <div class="slide-bot">
+                <img class="sponsor-bot" src="../img/sponsor-line/theheads.png" />
+            </div>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+    </section>
+
+    <section class="footer">
+        <footer id="footer">
+            <div class="top-part">
+                <div class="left-part">
+                    <p class="padding-right">ГО "ФЕДЕРАЦІЯ ЛЕГКОЇ АТЛЕТИКИ МИКОЛАЇВСЬКОЇ ОБЛАСТІ"</p>
+                    <p class="padding-right">Код ЄДРПОУ: <span>26499391</span></p>
+                    <p class="padding-right">Адреса: <span>Україна, 54015, Миколаївська обл., місто Миколаїв, вулиця Спортивна, будинок 1</span></p>
+                    <p class="padding-right">Президент: <span>Кілярський Володимир Геннадійович</span></p>
+                </div>
+
+                <div class="right-part">
+                    <p class="padding-left">СПІЛЬНІ ПРОЕКТИ</p>
+                    <p class="padding-left"><span>Ви хочете співпрацювати, у Вас є ідеї, Вам потрібна додаткова інформація - лишіть Імейл і з Вами зв'яжиться наш представник</span></p>
+                    <form action="#footer" class="padding-left">
+                        <input type="text" class="input" placeholder="Email">
+                        <button type="submit" class="input-button">Відправити Запит</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="bot-part">
+                <div class="facebook-icon"><a href="https://ru-ru.facebook.com/groups/atletika.nikolaev/"></a></div>
+                <div class="youtube-icon"><a href="https://www.youtube.com/channel/UCGgPSYZ9NdFhbIWtoICra1w"></a></div>
+                <div class="instagram-icon"><a href="#footer"></a></div>
+            </div>
+            @*<div class="creator"><a href="https://www.linkedin.com/in/richard-bell-370338171/">Copyright 2021, Richard Bell</a></div>*@
+            <div class="creator"><a href="https://www.linkedin.com/in/richard-bell-370338171/">Copyright 2021, made with Love</a></div>
+        </footer>
+    </section>
+
+    <script src="~/js/index.js"></script>
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>*@
+    @*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
+    @*@RenderSection("Scripts", required: false)*@
 </body>
 </html>
