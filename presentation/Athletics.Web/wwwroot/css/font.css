@@ -1,0 +1,129 @@
+﻿/* Oswald */
+/**************************/
+@font-face {
+font-family: 'Oswald';
+src: url(../font/Oswald-ExtraLight.ttf) format('truetype');
+font-weight: 200;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Oswald';
+src: url(../font/Oswald-Light.ttf) format('truetype');
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Oswald';
+src: url(../font/Oswald-Regular.ttf) format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Oswald';
+src: url(../font/Oswald-Medium.ttf) format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Oswald';
+src: url(../font/Oswald-SemiBold.ttf) format('truetype');
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Oswald';
+src: url(../font/Oswald-Bold.ttf) format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+
+/* Source Sans Pro */
+/**************************/
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-ExtraLight.ttf) format('truetype');
+font-weight: 200;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-ExtraLightItalic.ttf) format('truetype');
+font-weight: 200;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-Light.ttf) format('truetype');
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-LightItalic.ttf) format('truetype');
+font-weight: 300;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-Regular.ttf) format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-Italic.ttf) format('truetype');
+font-weight: 400;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-SemiBold.ttf) format('truetype');
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-SemiBoldItalic.ttf) format('truetype');
+font-weight: 600;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-Bold.ttf) format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-BoldItalic.ttf) format('truetype');
+font-weight: 700;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-Black.ttf) format('truetype');
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Source Sans Pro';
+src: url(../font/SourceSansPro-BlackItalic.ttf) format('truetype');
+font-weight: 900;
+font-style: italic;
+}

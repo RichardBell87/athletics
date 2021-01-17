@@ -1,0 +1,148 @@
+﻿/* News - Indent*/
+/**************************/
+.news-ident {
+    margin-top: 10px;
+}
+
+/* News - Image*/
+/**************************/
+.news-img {
+    background-image: url(../img/news/news-1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 174px;
+    width: 132px;
+    margin: 7px 7px 7px 7px;
+    border-top: solid 1px black;
+}
+
+.left-img {
+    float: left;
+    border-left: solid 1px black;
+}
+
+.right-img {
+    float: right;
+    border-right: solid 1px black;
+}
+
+.news-first-img {
+    background-image: url(../img/news/news-1.jpg);
+}
+
+.news-second-img {
+    background-image: url(../img/news/news-2.jpg);
+}
+
+.news-third-img {
+    background-image: url(../img/news/news-3.jpg);
+}
+
+.news-fourth-img {
+    background-image: url(../img/news/news-4.jpg);
+}
+
+.news-fiveth-img {
+    background-image: url(../img/news/news-5.jpg);
+}
+
+.news-sixth-img {
+    background-image: url(../img/news/news-6.jpg);
+}
+
+.news-seventh-img {
+    background-image: url(../img/news/news-7.jpg);
+}
+
+.news-eighth-img {
+    background-image: url(../img/news/news-8.jpg);
+}
+
+.news-ninth-img {
+    background-image: url(../img/news/news-9.jpg);
+}
+
+.news-tenth-img {
+    background-image: url(../img/news/news-10.jpg);
+}
+
+/* News - Text*/
+/**************************/
+.news {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+.news-date{
+padding-top: 6px;    
+}
+
+.news-first-text {
+    color: coral;
+}
+
+.news-second-text {
+    color: royalblue;
+}
+
+.news-third-text {
+    color: yellow;
+}
+
+.news-fourth-text {
+    color: mediumseagreen;
+}
+
+.news-fiveth-text {
+    color: orchid;
+}
+
+.news-sixth-text {
+    color: silver;
+}
+
+.news-seventh-text {
+    color: crimson;
+}
+
+.news-eighth-text {
+    color: gold;
+}
+
+.news-ninth-text {
+    color: 	slateblue;
+}
+
+.news-tenth-text {
+    color: sandybrown;
+}
+
+.news-title {
+    min-height: 65px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.news-title-first-symbol {
+    float: left;
+    font-size: 84px;
+    line-height: 64px;
+}
+
+.news-title-body {
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.news-body {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.news-link {
+    text-decoration: none;
+    padding-left: 6px;
+    font-weight: 600;
+    color: black;
+}
